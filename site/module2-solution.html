@@ -13,12 +13,20 @@ h1 {
   margin-bottom: 15px;
   text-align: center;
 }
-p {
+
+.container {
+  position: relative;
   border: 1px solid black;
   background-color: #ffff66;
+  padding: 10px;  
+  padding2-top3: 30px;
   margin: 10px;
-  font-family: Helvetica;
+ }
+p {
+  position: relative;
+  top:30px;
   padding: 10px;
+  font-family: Helvetica;
   height: auto;
   color: black;
 }
@@ -26,8 +34,25 @@ p {
 #p1 {
   background-color: #A52A2A;
   position: absolute;
-  top: 0px;
-  left: 0px;
+  border: 1px solid black;
+  top: -17px;
+  right: 0px;
+} 
+
+#p2 {
+  background-color: #996633;
+  position: absolute;
+  border: 1px solid black;
+  top: -17px;
+  right: 0px;
+}
+
+#p3 {
+  background-color: #ffffcc;
+  border: 1px solid black;
+  position: absolute;
+  top: -17px;
+  right: 0px;
 }
 /* Simple Responsive Framework. */
 .row {
@@ -165,9 +190,16 @@ p {
 <h1>Spaghetti - Choose One to Your Taste</h1>
 
 <div class="row">
-  <div class="col-lg-3 col-md-6 col-sm-12"><p id="p1">Spaghetti Bolognese</p><p>Bolognese sauce /bɒləˈnjeɪz/, known in Italian as ragù alla bolognese [raˈɡu alla boloɲˈɲeːze; -eːse], ragù bolognese [raˈɡu boloɲˈɲeːze; -eːse], or simply ragù, is a meat-based sauce originating from Bologna, Italy, hence the name. In Italian cuisine, it is customarily used to dress "tagliatelle al ragù" and to prepare "lasagne alla bolognese". In the absence of tagliatelle, it can also be used with other broad, flat pasta shapes, such as pappardelle or fettuccine.</p></div>
-  <div class="col-lg-3 col-md-6 col-sm-12"><p>Spaghetti alle vongole (pronounced [spaˈɡetti alle ˈvoŋɡole]), Italian for spaghetti with clams, is a dish that is very popular throughout Italy, especially in Campania (where it is part of traditional Neapolitan cuisine). Italians prepare this dish two ways: in bianco, i.e., with oil, garlic, parsley, and sometimes a splash of white wine; and in rosso, like the former but with tomatoes and fresh basil, the addition of tomatoes being more frequent in the south.</p></div>
-  <div class="col-lg-3 col-md-6 col-sm-12"><p>Carbonara (Italian: [karboˈnaːra]) is an Italian pasta dish from Rome based on eggs, cheese (Pecorino Romano or Parmigiano-Reggiano), bacon (guanciale or pancetta), and black pepper. Spaghetti is usually used as the pasta; however, fettuccine, rigatoni, linguine or bucatini can also be used. The dish was created in the middle of the 20th century. The pork is cooked in fat, which may be olive oil, lard, or less frequently butter.</p></div>
+  <div class="col-lg-3 col-md-6 col-sm-12">
+  <div class="container">
+  <p id="p1">Spaghetti Bolognese</p><p>Bolognese sauce /bɒləˈnjeɪz/, known in Italian as ragù alla bolognese [raˈɡu alla boloɲˈɲeːze; -eːse], ragù bolognese [raˈɡu boloɲˈɲeːze; -eːse], or simply ragù, is a meat-based sauce originating from Bologna, Italy, hence the name. In Italian cuisine, it is customarily used to dress "tagliatelle al ragù" and to prepare "lasagne alla bolognese". In the absence of tagliatelle, it can also be used with other broad, flat pasta shapes, such as pappardelle or fettuccine.</p>
+  </div></div>
+  <div class="col-lg-3 col-md-6 col-sm-12">
+<div class="container">
+<p id="p2">Spaghetti alle Vongole</p><p>Spaghetti alle vongole (pronounced [spaˈɡetti alle ˈvoŋɡole]), Italian for spaghetti with clams, is a dish that is very popular throughout Italy, especially in Campania (where it is part of traditional Neapolitan cuisine). Italians prepare this dish two ways: in bianco, i.e., with oil, garlic, parsley, and sometimes a splash of white wine; and in rosso, like the former but with tomatoes and fresh basil, the addition of tomatoes being more frequent in the south.</p></div></div>
+  <div class="col-lg-3 col-md-12 col-sm-12">
+  <div class="container">
+  <p id="p3">Spaghetti Carbonara</p><p>Carbonara (Italian: [karboˈnaːra]) is an Italian pasta dish from Rome based on eggs, cheese (Pecorino Romano or Parmigiano-Reggiano), bacon (guanciale or pancetta), and black pepper. Spaghetti is usually used as the pasta; however, fettuccine, rigatoni, linguine or bucatini can also be used. The dish was created in the middle of the 20th century. The pork is cooked in fat, which may be olive oil, lard, or less frequently butter.</p></div></div>
   <div>
 </div>
 
