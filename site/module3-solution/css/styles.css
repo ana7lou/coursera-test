@@ -1,0 +1,13 @@
+
+#nav-list a {
+  text-align: center; 
+  background-color:#ffffff;
+  border: 1px solid grey;
+  margin: 2px;
+}
+
+.container-fluid {
+	background-color:#e4e8e3;
+	margin: 20px;
+}
+
